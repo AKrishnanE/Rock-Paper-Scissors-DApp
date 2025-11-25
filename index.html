@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>RPS DApp</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; background:#0b1020; color:#e6eef8; display:flex; align-items:center; justify-content:center; height:100vh; }
+.card { background:#0f1724; padding:24px; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.6); width:360px }
+button { padding:10px 14px; margin:6px; border-radius:8px; border:none; cursor:pointer }
+.btn-action { background:#2563eb; color:white }
+.small { font-size:14px; color:#9fb0d7 }
+.status { margin-top:12px; color:#ffd; }
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Rock–Paper–Scissors</h2>
+<button id="connectButton" class="btn-action">Connect Wallet</button>
+<p id="accountDisplay" class="small">Not connected</p>
+<p id="networkDisplay" class="small"></p>
+
+
+<hr style="opacity:0.08" />
+
+
+<div>
+<p>Choose your move:</p>
+<button id="rockBtn">Rock 🪨</button>
+<button id="paperBtn">Paper 📄</button>
+<button id="scissorsBtn">Scissors ✂️</button>
+</div>
+
+
+<div class="status">
+<p id="resultText">Result: —</p>
+<p id="contractMove">Contract played: —</p>
+<p id="score">Your score: —</p>
+<p id="status">Ready.</p>
+</div>
+</div>
+
+
+<!-- ethers v6 UMD -->
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.8.0/dist/ethers.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
