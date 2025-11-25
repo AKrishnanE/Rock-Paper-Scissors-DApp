@@ -21,7 +21,7 @@ This is a small, beginner-friendly decentralized application (dApp) that impleme
 
 ## Contract address + test network used
 
-* **Contract address (example from development):** `0x67b9303BF2902A5c0761d1419Cfa4192b2640f4E`
+* **Contract address :** `0xe4aDE8823b332fdc342d0e6Cf7276e6ACc15FDFa`
 * **Test network used:** `Hoodi` (custom testnet) — *Replace with the actual network you deployed to, e.g., Sepolia, Goerli, or your custom network.*
 
 > If you deployed to a different testnet, update the address and network name in this README and in `script.js`.
@@ -48,8 +48,8 @@ This is a small, beginner-friendly decentralized application (dApp) that impleme
 1. Clone the repository locally.
 
 ```bash
-git clone <your-github-repo-url>
-cd <repo-folder>
+git clone https://github.com/AKrishnanE/Rock-Paper-Scissors-DApp.git
+cd Rock-Paper-Scissors-DApp
 ```
 
 2. Ensure the frontend files are present: `index.html`, `script.js`, and (`rps-debug.js` if used for debugging).
